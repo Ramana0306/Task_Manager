@@ -1,0 +1,89 @@
+:root { color-scheme: light; }
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background: #f4f5f7;
+  color: #1f2430;
+}
+
+.container { max-width: 640px; margin: 0 auto; padding: 24px 16px 64px; }
+
+h1 { font-size: 22px; margin-bottom: 4px; }
+.subtitle { color: #667; font-size: 14px; margin-bottom: 20px; }
+
+.card {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  margin-bottom: 16px;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 9px 10px;
+  margin-top: 4px;
+  margin-bottom: 12px;
+  border: 1px solid #d7dae0;
+  border-radius: 6px;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+label { font-size: 13px; font-weight: 600; color: #444; }
+
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  padding: 9px 16px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.btn-primary { background: #4f46e5; color: white; }
+.btn-primary:hover { background: #4338ca; }
+.btn-secondary { background: #eceefc; color: #4338ca; }
+.btn-danger { background: #fee2e2; color: #b91c1c; }
+.btn-ghost { background: transparent; color: #667; }
+
+.row { display: flex; gap: 8px; }
+.row > * { flex: 1; }
+
+.error { color: #b91c1c; font-size: 13px; margin-bottom: 10px; }
+
+.task {
+  border: 1px solid #e6e8ee;
+  border-radius: 8px;
+  padding: 12px 14px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+}
+.task.done { opacity: 0.6; }
+.task h3 { margin: 0 0 4px; font-size: 15px; }
+.task p { margin: 0 0 4px; font-size: 13px; color: #555; }
+
+.badge {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 999px;
+  margin-top: 4px;
+}
+.badge.PENDING { background: #fff3cd; color: #92720b; }
+.badge.DONE { background: #d4f4dd; color: #166534; }
+
+.task-actions { display: flex; flex-direction: column; gap: 6px; }
+
+.filters { display: flex; gap: 8px; margin-bottom: 16px; }
+.filters button { background: #eceefc; color: #4338ca; }
+.filters button.active { background: #4f46e5; color: white; }
+
+.topbar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
+.muted { color: #889; font-size: 13px; }
