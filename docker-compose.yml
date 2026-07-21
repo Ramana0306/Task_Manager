@@ -30,7 +30,7 @@ services:
     build:
       context: ./frontend
       args:
-        VITE_API_BASE_URL: http://backend:8080/api
+        VITE_API_BASE_URL: http://16.171.152.221:8080/api
     restart: always
     depends_on:
       - backend
