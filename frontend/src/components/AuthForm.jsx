@@ -67,7 +67,7 @@ export default function AuthForm({ onAuthed }) {
         </form>
 
         <p className="muted" style={{ marginTop: 14 }}>
-          {isLogin ? "No account yet? " : 'Already have an account? '}
+          {isLogin ? "Create new -> ? " : 'Already have an account? '}
           <a
             href="#"
             onClick={(e) => {
