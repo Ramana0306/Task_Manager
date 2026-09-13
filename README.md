@@ -98,7 +98,7 @@ Passwords are stored using **BCrypt hashing** and are never returned through the
 Web live at:
 
 ```text
-http://13.48.6.97:3000
+http://16.171.152.221
 ```
 
 ## 📚 What I Learned
