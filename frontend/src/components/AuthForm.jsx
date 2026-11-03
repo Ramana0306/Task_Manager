@@ -29,7 +29,7 @@ export default function AuthForm({ onAuthed }) {
 
   return (
     <div className="container">
-      <h1>Task Manager</h1>
+      <h1>Task Manager Pro</h1>
       <p className="subtitle">{isLogin ? 'Sign in to your account' : 'Create a new account'}</p>
 
       <div className="card">
